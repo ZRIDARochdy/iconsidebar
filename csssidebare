@@ -1,0 +1,66 @@
+body {
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+}
+.div {
+    position: relative;
+    height: inherit;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 0 3.91667em 0;
+}
+
+.label {
+    width: 6em;
+    height: 5.5em;
+    padding: 1.5em 0 0 0;
+    display: block;
+    float: left;
+    vertical-align: bottom;
+    text-align: center;
+    position: relative;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+    
+}
+.image {
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0.25em 0;
+    opacity: 0.7;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    -ms-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+.image:hover {
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0.25em 0;
+    opacity: .9;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    -ms-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+    background-color: #ECECEC;
+}
+.span {
+    vertical-align: 1em;
+    font-family: bebas-neue;
+    font-style: normal;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: none;
+    font-weight: 400;
+    opacity: 0.8;
+}
